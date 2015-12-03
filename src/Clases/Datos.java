@@ -48,7 +48,7 @@ public class Datos {
     
     public String agregarUsuario(Usuario miUsuario) {
     	if(contUsu == maxUsu) {
-    		return "Se ha alcanzado el número máximo de usuarios";
+    		return "Se ha alcanzado el número máximo de usuarios. ¡elimina usuarios ya no activos!";
     	}
     	
     	misUsuarios[contUsu] = miUsuario;
