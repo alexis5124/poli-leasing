@@ -85,7 +85,7 @@ public class form_login extends JFrame {
     		
 	    lblContraseña = new JLabel( "Contraseña: ");
 		pswContraseña = new JPasswordField(10);
-		pswContraseña.setToolTipText("El usuario no puede contener Mayúsculas ni Caracteres Especiales");
+		pswContraseña.setToolTipText("La contraseña puede contener Mayúsculas, Minusculas, Números. Excepto Caracteres Especiales");
     	//El textfield se limita a un determinado numero de caracteres
     	pswContraseña.addKeyListener(new KeyListener()
     	{
