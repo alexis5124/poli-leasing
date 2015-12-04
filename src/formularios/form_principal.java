@@ -43,7 +43,7 @@ public class form_principal extends JFrame {
 	
 	private void initComponents() {
 		//Propiedades del formulario
-		setTitle( "Sistema Inmobiliario" );
+		setTitle( "Sistema Inmobiliario Poli-leasing" );
 		setLayout( new FlowLayout());
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(600, 500);
