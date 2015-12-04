@@ -1,5 +1,5 @@
 package Clases;
-//Esta es la clase principal que Inicia Todo
+
 import Clases.frmSplash;
 import formularios.form_login;
 
@@ -12,5 +12,6 @@ public class Principal {
 		miLogin.setLocationRelativeTo(null);
 		miLogin.setDatos(misDatos);
 		miLogin.setVisible(true);
+		
 	}	
 }
